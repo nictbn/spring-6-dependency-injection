@@ -2,7 +2,7 @@ package com.example.spring6dependencyinjection.services;
 
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("propertyGreetingService")
 public class GreetingServicePropertyInjected implements GreetingService {
     @Override
     public String sayGreeting() {
